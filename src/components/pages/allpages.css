@@ -1,0 +1,9 @@
+.main {
+    font-size: 25px;
+    border-right: 1px solid var(#e6ecf0);
+    font-family: 'Times New Roman', Times, serif;
+    min-width: fit-content;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 3rem;
+}

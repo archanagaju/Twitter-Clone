@@ -1,0 +1,64 @@
+.container {
+    margin-left: 29%;
+    padding: 25px;
+    background-color: lightblue;
+    height: 55%;
+    width: 450px;
+    margin-top: 7%;
+}
+
+form {
+
+    width: 450px;
+}
+
+.heading1 {
+    margin-left: 24%;
+}
+
+label {
+    margin-left: 9%;
+}
+
+input[type=email],
+input[type=password] {
+    width: 80%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 9%;
+}
+
+button {
+    background-color: #4d14e9;
+    width: 60%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 19%;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.icon {
+    color: var(--twitter-color);
+    font-size: 30px;
+    margin-left: 45%;
+
+}
+
+p {
+    margin-left: 25%;
+    font-family: serif;
+    font-weight: 30%;
+}
+
+span {
+    color: blue
+}
