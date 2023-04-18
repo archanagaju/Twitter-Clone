@@ -29,14 +29,14 @@ const Sidebar = () => {
         <div className="sidebar">
             <TwitterIcon className="sidebar-twitterIcon" />
             <nav>
-                <NavLink exact={true} to={"/home"} className={(navData) => navData.isActive ? "selected" : null}> <span><HomeIcon />Home</span></NavLink>
-                <NavLink to={"/explore"} className={(navData) => navData.isActive ? "selected" : null}><span><SearchIcon />Explore</span></NavLink>
-                <NavLink to={"/message"} className={(navData) => navData.isActive ? "selected" : null}><span><MailOutlineIcon />Message</span></NavLink>
-                <NavLink to={"/notifications"} className={(navData) => navData.isActive ? "selected" : null}><span><NotificationsNoneIcon />Notifications</span></NavLink>
-                <NavLink to={"/bookmarks"} className={(navData) => navData.isActive ? "selected" : null}><span><BookmarkBorderIcon />Bookmarks</span></NavLink>
-                <NavLink to={"/lists"} className={(navData) => navData.isActive ? "selected" : null}><span><ListAltIcon />Lists</span></NavLink>
-                <NavLink to={"/profile"} className={(navData) => navData.isActive ? "selected" : null}><span><PermIdentityIcon />Profile</span></NavLink>
-                <NavLink to={"/more"} className={(navData) => navData.isActive ? "selected" : null}><span><MoreHorizIcon />More</span></NavLink>
+                <NavLink exact={true} to={"/home"} className={(navData) => navData.isActive ? "selected" : null}> <span className="side"><HomeIcon />Home</span></NavLink>
+                <NavLink to={"/explore"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><SearchIcon />Explore</span></NavLink>
+                <NavLink to={"/message"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><MailOutlineIcon />Message</span></NavLink>
+                <NavLink to={"/notifications"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><NotificationsNoneIcon />Notifications</span></NavLink>
+                <NavLink to={"/bookmarks"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><BookmarkBorderIcon />Bookmarks</span></NavLink>
+                <NavLink to={"/lists"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><ListAltIcon />Lists</span></NavLink>
+                <NavLink to={"/profile"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><PermIdentityIcon />Profile</span></NavLink>
+                <NavLink to={"/more"} className={(navData) => navData.isActive ? "selected" : null}><span className="side"><MoreHorizIcon />More</span></NavLink>
 
             </nav>
 
@@ -48,11 +48,11 @@ const Sidebar = () => {
                     <div className="photo">
                         <img className="img2"
                             alt=""
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHRdU5gCDtbkmHD7UE7uzMhCgB7w4SvYvNFqpN5YW9KM9exAzb_3qq7o0edETrSp0ZdQA&usqp=CAU"
+                            src="https://img.freepik.com/premium-vector/avatar-profile-icon_188544-4755.jpg?w=2000"
                         />
                     </div>
                     <div>
-                        <div className="name">{user.displayName}</div>
+                        <div className="name">Username:{user.displayName}</div>
                         <div className="username">@{user.displayName}</div>
                     </div>
                 </button>
