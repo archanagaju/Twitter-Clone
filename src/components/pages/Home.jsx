@@ -53,7 +53,7 @@ const Home = () => {
 
                         <img
                             alt=""
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHRdU5gCDtbkmHD7UE7uzMhCgB7w4SvYvNFqpN5YW9KM9exAzb_3qq7o0edETrSp0ZdQA&usqp=CAU"
+                            src="https://img.freepik.com/premium-vector/avatar-profile-icon_188544-4755.jpg?w=2000"
                         />
                         <input
                             type="text"
