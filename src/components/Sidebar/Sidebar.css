@@ -1,6 +1,6 @@
 .sidebar {
     border-right: 2px solid #e6ecf0;
-    flex: 0.2;
+    flex: 0.3;
     min-width: 350px;
     margin-top: 10px;
     margin-left: 20px;
@@ -104,3 +104,54 @@ nav>* {
     border-radius: 10px;
 }
 
+@media screen and (min-width: 768px) {
+    .sidebar {
+        flex: 0.2; /* Reduce the width on larger screens */
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .sidebar {
+        flex: 1; /* Take full width on smaller screens */
+        min-width: 0; /* Remove the minimum width restriction */
+        border-right: none; /* Remove the right border on smaller screens */
+        margin-left: 0; /* Reset the left margin */
+        margin-right: 0; /* Reset the right margin */
+        margin-top: 0; /* Reset the top margin */
+    }
+
+    nav {
+        padding-left: 1em; /* Adjust the padding for smaller screens */
+    }
+
+    .sidebar-twitterIcon {
+        font-size: 24px; /* Reduce the icon size on smaller screens */
+        margin: 8px 15px; /* Adjust the margin for smaller screens */
+        margin-bottom: 15px; /* Adjust the margin for smaller screens */
+    }
+
+    .sidebar-tweet {
+        font-size: 18px; /* Reduce the font size for smaller screens */
+        height: 40px; /* Reduce the height for smaller screens */
+        margin-top: 15px; /* Adjust the margin for smaller screens */
+        width: 90%; /* Adjust the width for smaller screens */
+        margin-left: 5%; /* Adjust the margin for smaller screens */
+    }
+
+    .side {
+        font-size: 1.2em; /* Reduce the font size for smaller screens */
+    }
+
+    .img2 {
+        width: 6rem; /* Reduce the image size for smaller screens */
+        height: 6rem; /* Reduce the image size for smaller screens */
+        margin-left: 5%; /* Adjust the margin for smaller screens */
+    }
+
+    .logout button {
+        font-size: 18px; /* Reduce the font size for smaller screens */
+        height: 40px; /* Reduce the height for smaller screens */
+        margin-left: 5%; /* Adjust the margin for smaller screens */
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+}
