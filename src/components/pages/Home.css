@@ -3,6 +3,7 @@
     padding-bottom: 10px;
     padding-right: 10px;
     margin-left: 1%;
+    
 }
 
 .main1 {
@@ -58,3 +59,67 @@ img {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+@media screen and (min-width: 768px) {
+    .tweetBox {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .main1 {
+        font-size: 30px;
+    }
+
+    .tweetBox-input {
+        width: 100%;
+    }
+
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .tweetBox-imageInput {
+        padding: 15px;
+    }
+
+    /* .tweetButon {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .tweetBox-input input {
+        /* margin-left: 15px; */
+        font-size: 24px;
+    }
+}
+
+/* Styles for .tweetBox on smaller screens */
+@media screen and (max-width: 767px) {
+   
+    .tweetBox-input {
+        width: 100%;
+    }
+
+    img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tweetBox-imageInput {
+        padding: 12px;
+    }
+
+    .tweetButon {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tweetBox-input input {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+
